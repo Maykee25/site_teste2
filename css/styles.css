@@ -92,7 +92,6 @@ header>p{
      height: 80px;
      background-color: #2ecc71;
      border-radius: 50%;
-     margin-right: 13.5px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -114,6 +113,8 @@ header>p{
 
 #video{
     padding: 15px;
+    width: 100%;
+    height: 250px;
 }
 
 
@@ -160,11 +161,19 @@ ul>li input#botao{
     border: 0;
     margin: 0;
     font-size: 0.875rem;
+    color: white;
+    font-weight: bolder;
 }
 
 iframe{
      width: 100%;
      height: 100%;
+     border-radius: 20px;
+}
+
+#fotos{
+   padding: 25px;
+   text-align: center;
 }
 
 
@@ -191,19 +200,19 @@ iframe{
           flex-direction: row;
           justify-content: space-around;
           align-items: center;
+          padding-left: 135px;
+          padding-right: 135px;
      }
      
      .imagem{
           width: 40px;
      }
   
-     
      .circulo2{
           width: 80px;
           height: 80px;
           background-color: #2ecc71;
           border-radius: 50%;
-          margin-right: 13.5px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -212,7 +221,7 @@ iframe{
      #form{
           display: flex;
           flex-direction: row;
-          padding: 25px;
+          padding: 25px 145px;
      }
    
     #formulario{
@@ -226,7 +235,8 @@ iframe{
 
 
     iframe{
-          width: 640px;
+          width: 420px;
           height: 268px;
+          border-radius: 20px;
      }
 }
